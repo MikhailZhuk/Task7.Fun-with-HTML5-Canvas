@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun with HTML5 Canvas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Fun with HTML5 Canvas</title>
 </head>
 <body>
-    
-    <script src="main.js"></script>
+  <div class="tools">
+    <label>Цвет: 
+      <input id="base" type="color" name="base" value="#365EEC"> 
+    </label>
+    <label>Размер:
+      <input id="spacing" type="range" name="spacing" min="2" max="500" value="30" data-sizing="%">
+    </label>
+  </div>
+  <canvas id="draw" width="800" height="800"></canvas>
+  <script src="main.js"></script>
 </body>
 </html>

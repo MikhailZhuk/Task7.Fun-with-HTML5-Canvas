@@ -1,0 +1,11 @@
+html, body {
+  position: relative;
+  margin: 0
+}
+.tools{
+  position: absolute;
+  align-items: center;
+  color: #365eec;
+  font: bold 25px Arial, sans-serif;
+  text-shadow: 1px 1px 5px white;
+}
